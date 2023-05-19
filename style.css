@@ -1,0 +1,27 @@
+
+#showSectionButton{
+    color: blue;
+    padding: 10px 20px;
+    background-color: orange;
+    border-radius: 10px 10px 0 0;
+    border: none;
+    font-size: 1rem;
+    position: absolute;
+    cursor: pointer;
+}
+#hiddenSection {
+    width: 70%;
+    height: 0;
+    background-color: orangered;
+    position: absolute;
+    top: 50px;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, height 0.5s ease;
+}
+#arrowIcon{
+    transform: rotate(0deg);
+    transition:all .5s;
+    font-size: 25px;
+    color: #fff;
+}
